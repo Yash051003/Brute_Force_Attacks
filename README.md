@@ -1,4 +1,5 @@
 🔐 Password Security & Brute Force Attack
+
 🔓 First, How Attackers Get Passwords in the First Place
 Attackers are constantly targeting login pages across the internet. They use automated tools and bots to try thousands (or millions) of username and password combinations. Most of the time, they don’t even come up with passwords themselves — they use huge password lists that are leaked on the dark web.
 
@@ -22,16 +23,16 @@ Kali already has a famous one called rockyou.txt which contains millions of real
 For more targeted lists, I used OSINT — like collecting names, birthdays, or pet names if you're targeting a specific person in a simulation. These make the wordlist way more accurate.
 
 You can make your wordlist by crunch:
-
 ```bash
 crunch 6 8 xyz123 -o "Your_file_name.txt"
 ```
+
 🧠 Advanced Wordlist Generation Techniques
 If you want to go deeper, you can use tools like cewl, which crawls websites and extracts common words from them. This is useful for generating passwords based on content from someone’s blog or company site.
 
 There’s also a toolset called SecLists which is a massive collection of usernames, passwords, payloads, and more — all maintained for ethical hacking use.
 
-Some advanced users even use AI or ML to generate wordlists based on patterns — though I haven’t explored that much yet.
+Some advanced devolpers even use AI or ML to generate wordlists based on patterns — though I haven’t explored that much yet.
 
 🚀 Actually Performing the Brute Force Attack (in a Test Lab)
 Now comes the fun part — running the actual attack.
