@@ -45,3 +45,9 @@ Then, using hydra, I built a command that looks like this:
 
 I dont know but maybe this command is only correct for the website which uses the php as a scripting language for thier backend , that's why i guess it use php in its command 
 
+✅ Conclusion
+After going through this whole process, I now understand how dangerous brute force attacks can be — and how easy it is to simulate them if you know what you’re doing. But I also learned that with the right defenses, they’re totally preventable.
+
+If you're learning cybersecurity like me, I definitely recommend setting up your own lab and trying this out safely. Don’t ever try this on real websites — always stick to legal platforms made for practice.
+
+Let me know if you want help setting up your environment or creating your own fake login form for testing!
