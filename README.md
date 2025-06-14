@@ -11,5 +11,6 @@ Even though brute-forcing seems like an old-school method, it's still very power
 
 This kind of computational persistence is what makes brute-force attacks dangerous even today — they don’t stop until they get in.
 
-
- 
+🧪 Setting Up a Safe Testing Environment (What I Did)
+To try this out legally and safely, I used Kali Linux in VirtualBox. It comes with a lot of pre-installed tools made for ethical hacking.
+I made sure hydra was installed — it’s a tool that can perform brute-force attacks on login forms. I also got cewl and crunch to help with wordlist creation. Setting these up was easy using the terminal.
