@@ -33,3 +33,15 @@ If you want to go deeper, you can use tools like cewl, which crawls websites and
 There’s also a toolset called SecLists which is a massive collection of usernames, passwords, payloads, and more — all maintained for ethical hacking use.
 
 Some advanced users even use AI or ML to generate wordlists based on patterns — though I haven’t explored that much yet.
+
+🚀 Actually Performing the Brute Force Attack (in a Test Lab)
+Now comes the fun part — running the actual attack.
+
+First, you need to inspect the login form of the website (in the test environment) to find out the form field names, like username and password. I used browser DevTools and Burp Suite to intercept and analyze the request.
+
+Then, using hydra, I built a command that looks like this:
+
+```hydra -L usernames.txt -P passwords.txt localhost http-post-form "/login.php:user=^USER^&pass=^PASS^:Login failed"```
+
+I dont know but maybe this command is only correct for the website which uses the php as a scripting language for thier backend , that's why i guess it use php in its command 
+
