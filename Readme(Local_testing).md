@@ -30,3 +30,26 @@ Install dependencies using:
 ```bash
 pip install requests beautifulsoup4
 ```
+
+##🧪 How to Use
+1. Start your Django app
+Ensure your target Django app is running:
+
+```bash
+python manage.py runserver 0.0.0.0:8000
+```
+
+2. Edit the script
+Modify the following variables in brute_force.py:
+
+```bash
+url = "http://<YOUR-IP>:8000/accounts/login/"
+username = "admin"
+passwords = ["Yash", "admin", "password", "admin123", "letmein", "qwerty"]
+```
+
+3. Run the script in Kali Linux or terminal:
+
+```bash
+python brute_force.py
+```
