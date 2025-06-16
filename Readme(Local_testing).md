@@ -55,3 +55,7 @@ passwords = ["Yash", "admin", "password", "admin123", "letmein", "qwerty"]
 ```bash
 python brute_force.py
 ```
+
+## 📷 Screenshot
+
+![BruteForce Demo](assets/code.png)
