@@ -31,6 +31,8 @@ Install dependencies using:
 pip install requests beautifulsoup4
 ```
 
+---
+
 ##🧪 How to Use
 1. Start your Django app
 Ensure your target Django app is running:
