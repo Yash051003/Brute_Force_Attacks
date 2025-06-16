@@ -58,4 +58,4 @@ python brute_force.py
 
 ## 📷 Screenshot
 
-![BruteForce Demo](assets/Code.png)
+![BruteForce Demo](assets/Code.jpg)
